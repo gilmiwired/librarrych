@@ -1,0 +1,135 @@
+@media screen and ( max-width:479px ){ /*スマホ用CSS
+    /* 縞々背景 */
+    body {
+        background-image:linear-gradient(-45deg, #ffffe0 25%, #FFFEF9 25%, #FFFEF9 50%, #ffffe0  50%, #ffffe0 75%, #FFFEF9 75%, #FFFEF9);
+        background-size: 40px 40px; /*ストライプ線の太さ*/
+    }
+    /* 見出しの位置 */
+    h1 {
+        text-align: center;
+    }
+    /* 現在時刻の配置 */
+    h1#time {
+        text-align: center;
+        font-size: 20px;
+    }
+    /* ボタンの配置 */
+    div#koshin {
+        text-align: center;
+    }
+    /* カメラの画像の配置 */
+    div#sample {
+        text-align: center;
+    }
+    div#sample img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* としきの画像 */
+    p#sato img {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 240px;
+        left: 580px
+    }
+    /* 吹き出しの画像 */
+    div#fukidashi img{
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 200px;
+        left: 380px;
+    }
+    /* セリフの配置 */
+    div#serifu {
+        font-weight: bold;
+        position: absolute;
+        top: 255px;
+        left: 430px;
+    }
+    /* 接続確認サイト用リンク */
+    div#socket {
+        text-align: center;
+    }
+    /* 隠しリンク */
+    a#hide {
+        color: #000000;
+        text-decoration: none;
+    }
+    a#hide2 {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
+
+
+@media screen and ( min-width:480px ){ /*PC用CSS
+    /* 縞々背景 */
+    body {
+        background-image:linear-gradient(-45deg, #DAE9EE 25%, #FFFEF9 25%, #FFFEF9 50%, #DAE9EE  50%, #DAE9EE 75%, #FFFEF9 75%, #FFFEF9);
+        background-size: 40px 40px; /*ストライプ線の太さ*/
+    }
+
+    /* 見出しの位置 */
+    h1 {
+        text-align: center;
+    }
+    /* 現在時刻の配置 */
+    h1#time {
+        text-align: center;
+        font-size: 30px;
+    }
+    /* ボタンの配置 */
+    div#koshin {
+        text-align: center;
+    }
+    /* カメラの画像の配置 */
+    div#sample {
+        text-align: center;
+    }
+    div#sample img{
+        width: 50%;
+        height: auto;
+    }
+
+    /* としきの画像 */
+    p#sato img {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 240px;
+        left: 580px
+    }
+    /* 吹き出しの画像 */
+    div#fukidashi img{
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 200px;
+        left: 380px;
+    }
+    /* セリフの配置 */
+    div#serifu {
+        font-weight: bold;
+        position: absolute;
+        top: 255px;
+        left: 430px;
+    }
+    /* 接続確認サイト用リンク */
+    div#socket {
+        text-align: center;
+    }
+    /* 隠しリンク */
+    a#hide {
+        color: #000000;
+        text-decoration: none;
+    }
+    a#hide2 {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
