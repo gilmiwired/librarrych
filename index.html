@@ -16,6 +16,7 @@
     </h1>
     <div id="sample">
         <img src="img/sample.jpg" alt="図書室設置カメラ">
+		<script type="text/javascript" src = "image.js"></script>
     </div>
     <div id="koshin">
         <button onClick="koshin()">カメラの更新</button>
@@ -29,15 +30,15 @@
     </div>
     <div id="serifu">F5でええやん</div>
     -->
+
 	<img id="image_place"src="img/sato.jpg"/>
 	<script type="text/javascript">
     // img要素を取得する
-    	var img = document.getElementById("image_place");
-		ar fs = WScript.CreateObject("Scripting.FileSystemObject");
-		var file = fs.OpenTextFile("data.txt", 1);
-		var str = file.ReadLine();
-		idx = str;
-    	img.src = idx + ".png";
+    var img = document.getElementById("image_place");
+	var fs = WScript.CreateObject("Scripting.FileSystemObject");
+    var idx = fs.OpenTextFile("data.txt", 1);
+	var str = file.ReadLine();
+    img.src = idx + ".png";
  	</script>
 
 	<div id="socket">
