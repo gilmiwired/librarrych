@@ -35,9 +35,7 @@
 	<script type="text/javascript">
     // img要素を取得する
     var img = document.getElementById("image_place");
-	var fs = WScript.CreateObject("Scripting.FileSystemObject");
-    var idx = fs.OpenTextFile("data.txt", 1);
-	var str = file.ReadLine();
+	idx = 1;
     img.src = idx + ".png";
  	</script>
 
