@@ -18,6 +18,7 @@ def daemonize():
 	f.write(str(b))
 	f.close()
     print('end child process.')
+    subprocess.call(["ln","-s","{}.png".fornmt(b),"top.png"])
 
 
 b = 1
