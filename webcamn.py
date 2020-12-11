@@ -16,9 +16,6 @@ def daemonize():
     print('start child process.')
     p.start()
     p.join()
-	f = open('./data.txt', 'w')
-	f.write(str(b))
-	f.close()
     print('end child process.')
     subprocess.call(["ln","-s","{}.png".fornmt(b),"top.png"])
 
