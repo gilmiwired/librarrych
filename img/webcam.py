@@ -16,8 +16,10 @@ def daemonize():
     p.join()
     print('end child process.')
     subprocess.call(["rm","-f","top.jpg"])
-    subprocess.call(["ln","-s","{}.jpg".format(b),"top.jpg"])
+    subprocess.call(["cp","-s","{}.jpg".format(b),"top.jpg"])
+    subprocess.call(["bash","commit.sh"])
     subprocess.call(["rm","-f","{}.jpg".format(b-2)])
+    subprocess.call(["bash",commit.sh])
 
 
 b = 1
