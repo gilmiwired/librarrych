@@ -1,5 +1,3 @@
-
-
 import time
 import os
 import sys
@@ -17,7 +15,9 @@ def daemonize():
     p.start()
     p.join()
     print('end child process.')
-    subprocess.call(["ln","-s","{}.png".fornmt(b),"top.png"])
+    subprocess.call(["ln","-s","{}.jpg".fornmt(b),"top.jpg"])
+    for i in b-2 :
+         subprocess.call(["rm","-f","{}.jpg".format(i)])
 
 
 b = 1
