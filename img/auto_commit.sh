@@ -6,5 +6,5 @@ do
 	git add .
 	git commit -m 'auto commit'
 	git push origin
-	sleep 400
+	sleep 70
 done
