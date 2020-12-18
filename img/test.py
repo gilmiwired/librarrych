@@ -11,7 +11,7 @@ def run_proc():
 
 def daemonize():
     print('Parent process %s.' % os.getpid())
-    subprocess.call(["bash","commit.sh"])
+    subprocess.call(["rm","-r","top.jpg"])
     p = Process(target=run_proc)
     print('start child process.')
     p.start()
