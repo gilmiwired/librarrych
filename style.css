@@ -26,33 +26,6 @@
         height: auto;
     }
 
-    /* としきの画像 */
-    p#sato img {
-        width: 300px;
-        height: auto;
-        position: absolute;
-        top: 240px;
-        left: 580px
-    }
-    /* 吹き出しの画像 */
-    div#fukidashi img{
-        width: 200px;
-        height: auto;
-        position: absolute;
-        top: 200px;
-        left: 380px;
-    }
-    /* セリフの配置 */
-    div#serifu {
-        font-weight: bold;
-        position: absolute;
-        top: 255px;
-        left: 430px;
-    }
-    /* 接続確認サイト用リンク */
-    div#socket {
-        text-align: center;
-    }
     /* 隠しリンク */
     a#hide {
         color: #000000;
@@ -91,37 +64,10 @@
         text-align: center;
     }
     div#sample img{
-        width: 50%;
+        width: 40%;
         height: auto;
     }
 
-    /* としきの画像 */
-    p#sato img {
-        width: 300px;
-        height: auto;
-        position: absolute;
-        top: 240px;
-        left: 580px
-    }
-    /* 吹き出しの画像 */
-    div#fukidashi img{
-        width: 200px;
-        height: auto;
-        position: absolute;
-        top: 200px;
-        left: 380px;
-    }
-    /* セリフの配置 */
-    div#serifu {
-        font-weight: bold;
-        position: absolute;
-        top: 255px;
-        left: 430px;
-    }
-    /* 接続確認サイト用リンク */
-    div#socket {
-        text-align: center;
-    }
     /* 隠しリンク */
     a#hide {
         color: #000000;
