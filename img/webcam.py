@@ -19,7 +19,7 @@ def daemonize():
     subprocess.call(["cp","-s","{}.jpg".format(b),"top.jpg"])
     subprocess.call(["bash","commit.sh"])
     subprocess.call(["rm","-f","{}.jpg".format(b-2)])
-    subprocess.call(["bash",commit.sh])
+    subprocess.call(["bash","commit.sh"])
 
 
 b = 1
