@@ -17,7 +17,7 @@ def daemonize():
     print('end child process.')
     subprocess.call(["rm","-f","top.jpg"])
     subprocess.call(["ln","-s","{}.jpg".fornmt(b),"top.jpg"])
-    subprocess.call(["rm","-f","{}.jpg".format(i)])
+    subprocess.call(["rm","-f","{}.jpg".format(b-2)])
 
 
 b = 1
