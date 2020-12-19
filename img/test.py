@@ -19,7 +19,6 @@ def daemonize():
     print('end child process.')
     subprocess.call(["bash","commit.sh"])
 
-
 b = 1
 
 if __name__ == '__main__':
