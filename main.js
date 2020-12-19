@@ -1,6 +1,6 @@
 var bgm;
 bgm = new Audio();
-bgm.src = "music/bgm.mp3"
+bgm.src = "music/っざけんなよおおおお！！！.wav"
 
 function set2fig(num) {
    // 桁数が1桁だったら先頭に0を加えて2桁に調整する
