@@ -1,16 +1,11 @@
 # 図書室空席確認システム　(librarycheack)
 
-
-
 ここはホームページ用リポジトリよ
-
 
 ***アクセス数***<br>
 <img src="https://profile-counter.glitch.me/librarycheck/count.svg" alt="" />
 
-
 まぁ四人しか編集者がいないんで適当にブランチ切って適当に編集しちゃってください。
-
 
 ***
 
@@ -34,6 +29,15 @@
 ~~どんどんpullリクエスト送ってください。マージします。~~
 
 ***
+
+***how to use***
+- ラズパイ側
+ * img　フォルダ内の webcam.pyを実行しましょう。
+
+以上
+
+- バックアップを残したいときはbackup/backup.pyを実行しましょう
+ * バックアップはラズパイ側のローカルリポジトリにしか残らないので注意
 
 サイト : [site](https://ibc-libcheck.netlify.app/)
 資料等 : [google drive](https://drive.google.com/drive/folders/1YB1rYuMj9Dod96YIM1sCtQFkhL5izmdC?usp=sharing)
