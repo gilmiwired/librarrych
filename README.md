@@ -32,12 +32,15 @@
 
 ***how to use***
 - ラズパイ側
- * img　フォルダ内の webcam.pyを実行しましょう。
+	* img　フォルダ内の webcam.pyを実行しましょう。
 
 以上
 
-- バックアップを残したいときはbackup/backup.pyを実行しましょう
- * バックアップはラズパイ側のローカルリポジトリにしか残らないので注意
+- その他
+	* バックアップを残したいときはbackup/backup.pyを実行しましょう
+	* *バックアップはラズパイ側のローカルリポジトリにしか残らないので注意*
+
+***
 
 サイト : [site](https://ibc-libcheck.netlify.app/)
 資料等 : [google drive](https://drive.google.com/drive/folders/1YB1rYuMj9Dod96YIM1sCtQFkhL5izmdC?usp=sharing)
