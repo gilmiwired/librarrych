@@ -1,4 +1,4 @@
-# 図書室空席確認システム　(librarrych)
+# 図書室空席確認システム　(librarycheck)
 
 
 
