@@ -1,6 +1,6 @@
 var bgm;
 bgm = new Audio();
-bgm.src = "music/っざけんなよおおおお！！！.wav"
+bgm.src = "music/bgm.wav"
 function set2fig(num) {
    // 桁数が1桁だったら先頭に0を加えて2桁に調整する
    var ret;
@@ -31,16 +31,16 @@ function koshin(){//サイト更新ボタン
 
 function open(){//ページを開いたときの処理。ここにカメラの更新と画像表示を記述
 	var connection = "shot";
-	console.log("コネクションを開始しします。");
+	console.log("コネクションを開始します。");
 	connection = new WebSocket('');
 	connection.onopen = function(e) {
-		console.log("コネクションを開始しまいた。");
+		console.log("コネクションを開始しました。");
 	};
 	connection.onerror = function(error) {
 		console.log("エラーが発生しました。");
 	};
 	connection.onclose = function() {
-		console.log("コネクションを終了しまいた。");
+		console.log("コネクションを終了しました。");
 	};
 }
 window.onload = open();
