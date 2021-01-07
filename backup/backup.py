@@ -15,15 +15,15 @@ def daemonize():
     p.start()
     p.join()
     print('end child process.')
-    subprocess.call(["ln","-s","{}.jpg".fornmt(b),"top.jpg"])
-    for i in b-2 :
-         subprocess.call(["rm","-f","{}.jpg".format(i)])
-
-
+	if((b-n) < 200):
+		for i in range(n,(b-100)):
+			subprocess.call(["rm","-r","{}.jpg".format(i)])
+		n += 100
 b = 1
+n = 1
 
 if __name__ == '__main__':
     while True:
         daemonize()
         b += 1
-        time.sleep(60)
+        time.sleep(900)
