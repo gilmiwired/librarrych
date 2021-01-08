@@ -6,19 +6,17 @@ import subprocess
 from multiprocessing import Process
 
 def run_proc():
-    subprocess.call(["fswebcam","{}.jpg".format(num),"-q"])
-
-def daemonize():
+    subprocess.call(["fswebcam","{}.jpg".format(b),"-q"])
+    
+def daemonize(num):
     p = Process(target=run_proc)
     p.start()
     p.join()
-
+    if num == 
 num = 1
 
 if __name__ == '__main__':
     while True:
-        daemonize()
-        if num == 100:
-          num = 1
+        daemonize(num)
         num += 1
-        time.sleep(60)
+        time.sleep(900)
