@@ -26,4 +26,4 @@ if __name__ == '__main__':
     while True:
         daemonize()
         b += 1
-        time.sleep(20)
+        time.sleep(30)
