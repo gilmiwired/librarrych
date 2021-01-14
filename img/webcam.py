@@ -14,12 +14,10 @@ def daemonize():
     subprocess.call(["rm","-r","top.jpg"])
     subprocess.call(["bash","commit.sh"])
 	p = Process(target=run_proc)
-    print('start child process.')
     p.start()
     p.join()
-    print('end child process.')
 
 if __name__ == '__main__':
     while True:
         daemonize()
-        time.sleep(20)
+        time.sleep(60)
